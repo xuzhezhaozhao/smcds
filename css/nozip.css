@@ -1,0 +1,206 @@
+/***********************************************/
+/* nozip.css                            	   */
+/***********************************************/
+
+/***********************************************/
+/* HTML tag styles                             */
+
+/************************************/
+body{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #000000;
+	line-height: 1.166;	
+	margin: 2%;
+	padding: 0px;
+	background: #FAFBFC;
+}
+
+table {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:10pt;
+}
+
+th {
+	background-color:#7caa7c;
+	color:#ffffff;
+}
+
+/************************************/
+
+/************************************/
+/* hyperlink and anchor tag styles  */
+/************************************/
+
+a{
+	color: #005FA9;
+	text-decoration: none;
+}
+
+a:link
+{
+	color: #005FA9;
+	text-decoration: none;
+}
+
+a:visited
+{
+	color: #005FA9;
+	text-decoration: none;
+}
+
+a:hover
+{
+	color: #479ac7;
+	text-decoration: underline;
+}
+
+/************************************/
+
+
+/************************************/
+/* Header tag styles                */
+/************************************/
+
+h1{
+ font-family: "Palatino Linotype",Arial,sans-serif;
+ font-size: 168%;
+ /*color: #336666;*/
+ color: #3366aa;
+ margin: 0px;
+ padding: 0px;
+}
+
+h2{
+ font-family: "Palatino Linotype",Arial,sans-serif;
+ font-size: 145%;
+ /*color: #336666;*/
+ color: #0075bd;
+ margin: 0px;
+ padding: 0px;
+}
+
+h3{
+ font-family: "Palatino Linotype",Arial,sans-serif;
+ /*color: #334d55;*/
+ color: #336699;
+ font-size: 135%;
+ margin: 0px;
+ padding: 0px;
+}
+
+h4{
+ font-family: "Palatino Linotype",Arial,sans-serif;
+ font-size: 100%;
+ font-weight: normal;
+ color: #333333;
+ margin: 0px;
+ padding: 0px;
+}
+
+h5{
+ font-family: 'Vonness Medium',Arial,sans-serif;
+ font-size: 100%;
+ color: #334d55;
+ margin: 0px;
+ padding: 0px;
+}
+
+
+/************************************/
+
+/************************************/
+/* List Tags                        */
+/************************************/
+
+ul{
+ list-style-type: square;
+}
+
+ul ul{
+ list-style-type: disc;
+}
+
+ul ul ul{
+ list-style-type: none;
+}
+
+
+/************************************/
+
+/************************************/
+/* Form and related Tags            */
+/************************************/  
+label{
+ font-family: Arial,sans-serif;
+ font-size: 100%;
+ font-weight: bold;
+ color: #334d55;
+}
+				
+input{
+font-family: Arial,sans-serif;
+}
+/************************************/
+
+
+/* HTML tag styles                             */
+/***********************************************/
+
+
+.tabheader {
+	font-size: 13px;
+	font-family:Arial, Helvetica, sans-serif;
+	cursor:hand;
+	border-left:0px;
+	border-right:0px;
+	padding-left:6px;
+	padding-right:6px;
+	padding-top:4px;
+	padding-bottom:4px;
+	border-top: #bdc7e7 1px solid;
+	border-bottom: #182052 1px solid;
+}
+
+.selectedtab {
+	font-size: 10pt;
+	font-family:Arial, Helvetica, sans-serif;
+	cursor:hand;
+	border-left:0px;
+	border-right:0px;
+	padding-top:4px;
+	padding-bottom:4px;
+	background-color:#63699c;
+	color:#ffffff;
+	font-weight:bold;
+}
+
+.unselectedtab {
+	font-size: 10pt;
+	font-family:Arial, Helvetica, sans-serif;
+	cursor:hand;
+	border-left:0px;
+	border-right:0px;
+	padding-top:4px;
+	padding-bottom:4px;
+	background-color:#dddddd;
+	color:#444444;
+}
+
+.thinborder {
+	border-collapse:collapse;
+	border-style:solid;
+	border-width:1px;
+	border-color:#cccccc;
+}
+
+.cell {
+	border-collapse:collapse;
+	border-style:solid;
+	border-width:1px;
+	border-color:#cccccc;
+}
+
+/***********************************************/
+/*End Component Divs                           */
+/***********************************************/
+
